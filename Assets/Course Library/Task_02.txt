@@ -1,0 +1,44 @@
+
+
+====================
+=> Task [level Up Runner]
+
+ref game link : https://play.google.com/store/apps/details?id=com.AppIdeas.LevelUpRunner
+
+=> screen layout : portrait [1080 * 1920]
+
+=> Tap To start screen
+- click tap screen -> player run automatic
+
+=> Gameplay screen
+- gameplay screen -> display level number & total diamond display
+- left-right drag to control left-right movement
+- gameplay track length [50 to 60 sec. gameplay then finish line]
+
+=> player collect
+- player collect power & diamond on track
+- power collect -> increase player lvl
+- diamond collect to increase diamond
+- enemy player as a obstacle [enemy lvl random]
+- if player lvl >= enemy lvl then kill enemy & player power increase 
+
+=> Level Complete & Fail dialog screen
+- if player lvl < enemy lvl then kill player & level fail dialog
+- if player touch to finish line -> level complete dialog
+
+=> Level Fail Dialog
+- earn diamond text and restart button
+- restart button click -> restart same level
+
+=> Level Complete Dialog
+- earn diamond text and next button
+- next button click -> increase level number(+1) & play same level but some logic changes
+
+- restart & next button click -> display tap to start screen 
+
+=> Level wise Logic changes
+- every level earn diamond increase (+100 diamond)
+- every level player speed increase (5% increase)
+
+====================
+
